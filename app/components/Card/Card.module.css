@@ -1,0 +1,42 @@
+.card {
+
+    margin: 1.5rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card__poster {
+
+    width: 100%;
+    display: block;
+}
+
+.card__title {
+
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card__description {
+
+    font-size: 0.9rem;
+    text-align: justify;
+    margin: 0 0 1rem 0;
+    display: none;
+}
+
+.button {
+
+    place-content: center;
+    margin-left: 20%;
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    color: white;
+    background-color: purple;
+    font-weight: bold;
+    text-decoration: none;
+}
