@@ -1,19 +1,16 @@
 .card {
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
-    column-count: 2;
+    grid-template-columns: 1fr 3fr;
     margin: 1.5rem;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: 150ms;
 }
 
 
-.card__poster {
+.card__image {
 
-    width: 100%;
+    width: 75%;
     display: block;
+    border-radius: 12px;
 }
 
 .card__title {
@@ -24,9 +21,26 @@
     font-weight: bold;
 }
 
-.card__description {
+.card__title:hover {
+
+    text-decoration: underline;
+    color: #572baf;
+}
+
+.card__author {
 
     font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+.card__description {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
     text-align: justify;
+    color: #a6a6a6;
+    font-style: italic;
     margin: 0 0 1rem 0;
 }
