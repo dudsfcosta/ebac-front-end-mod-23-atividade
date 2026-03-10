@@ -5,6 +5,7 @@ export async function getArtigos(): Promise<Artigo[]> {
     return artigos
 }
 
-export async function getArtigo(id: number): Promise<Artigo | undefined> {
-    return artigos.find((a) => a.id === id)
+export const getArtigo = async (id: number): Promise<Artigo | undefined> => {
+
+    return artigos.find(artigo => artigo.id === id);
 }

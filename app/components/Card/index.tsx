@@ -12,13 +12,13 @@ const Card = ({artigo} : Props) => {
     const resume = content?.length >= 128?`${content.substring(0, 128)}...`:content;
     return (
         <div key={id} className={styles.card}>
-            <Link href={`/artigos/${id}`}>
+            <Link href={`/article/${id}`}>
                 <img className={styles.card__image}
                      src={`${urlToImage}`}
                      alt={`Capa de "${title}"`}/>
             </Link>
                 <div>
-                    <Link href={`/artigos/${id}`}>
+                    <Link href={`/article/${id}`}>
                         <h3 className={styles.card__title}>{title}</h3>
                     </Link>
                     <Link href={`${author}`}>
