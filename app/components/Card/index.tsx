@@ -1,23 +1,29 @@
-import {Local} from "@/types/types";
+import {Artigo} from "@/lib/types";
 import styles from "./Card.module.css";
 import Link from "next/link";
 
 type Props = {
 
-    Local: Local;
+    artigo: Artigo;
 }
-const Card = ({Local: local} : Props) => {
+const Card = ({artigo} : Props) => {
 
-    const {id, title, image, description} = local;
+    const {id, author, title, urlToImage, publishedAt, content} = artigo;
+    const resume = content?.length >= 256?`${content.substring(0, 253)}...`:content;
     return (
-
         <div key={id} className={styles.card}>
-            <img className={styles.card__poster} src={image} alt={`imagem de ${title}`} width={300} height={200} />
-            <div>
-                <h3 className={styles.card__title}>{title}</h3>
-                <p className={styles.card__description}>{description}</p>
-                <Link className={styles.button} href={`/pages/destinos/${local.slug}`}>Detalhes</Link>
-            </div>
+            <Link href={`/artigos/${id}`}>
+                <img className={styles.card__poster}
+                     src={`${urlToImage}`}
+                     alt={`Capa de "${title}"`}/>
+            </Link>
+            <Link href={`/artigos/${id}`}>
+                <div>
+                    <h3 className={styles.card__title}>{title}</h3>
+                    <p className={styles.card__description}>{resume}</p>
+                    <p></p>
+                </div>
+            </Link>
         </div>
     );
 }

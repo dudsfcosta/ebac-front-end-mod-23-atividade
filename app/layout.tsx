@@ -4,8 +4,8 @@ import Header from "./components/Header"
 import Footer from "@/app/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Descubra Campinas",
-  description: "Explore os principais pontos turísticos da cidade e planeje sua visita.",
+  title: "Cinelista",
+  description: "No Cinelista, voê encontra os títulos mais populares",
 };
 
 export default function RootLayout({

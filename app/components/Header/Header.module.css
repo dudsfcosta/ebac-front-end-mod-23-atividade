@@ -12,7 +12,7 @@
 
 .header__logo a {
 
-    color: purple;
+    color: #d70d1b;
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
@@ -27,5 +27,5 @@
 .header__nav a:hover {
 
     text-decoration: underline;
-    color: purple;
+    color: #d70d1b;
 }

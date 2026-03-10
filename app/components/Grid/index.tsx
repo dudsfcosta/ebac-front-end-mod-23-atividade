@@ -1,16 +1,16 @@
-import {Local} from "@/types/types";
+import {Artigo} from "@/lib/types";
 import Card from "@/app/components/Card";
 import styles from "./Grid.module.css"
 
 type Props = {
-    local: Local[]
+    artigos: Artigo[]
 }
-const Grid = ({local} : Props) => {
+const Grid = ({artigos} : Props) => {
 
     return (
 
         <section className={styles.grid}>
-            {local.map(local => <Card key={local.id} Local={local} />)}
+            {artigos.map(artigo => <Card key={artigo.id} artigo={artigo} />)}
         </section>
     )
 }
