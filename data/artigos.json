@@ -2,7 +2,7 @@
   {
     "id": 1,
     "author": "Ana Silva",
-    "author-slug": "ana-silva",
+    "authorSlug": "ana-silva",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris arcu.",
     "urlToImage": "https://images.pexels.com/photos/33952477/pexels-photo-33952477.jpeg",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel felis dui. Suspendisse blandit arcu eu felis luctus, sit amet laoreet urna convallis. Curabitur nec ultricies nibh. Nullam efficitur urna non ipsum facilisis accumsan. Suspendisse iaculis hendrerit scelerisque. Suspendisse ut auctor eros. Donec blandit, est vitae egestas aliquet, justo mi feugiat lectus, in interdum dolor nisl at lectus. Integer mollis tristique aliquet. Nunc semper et libero molestie imperdiet. Suspendisse potenti. Etiam placerat, ligula sed semper posuere, massa felis vestibulum mi, ac euismod nisl diam placerat nisi. Aliquam bibendum est et viverra ultricies. Vivamus vehicula justo eu enim molestie, sed pellentesque tortor malesuada. Etiam viverra nibh ultricies eros pretium, ac posuere velit facilisis."
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "author": "Bruno Costa",
-    "author-slug": "bruno-costa",
+    "authorSlug": "bruno-costa",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor.",
     "urlToImage": "https://images.pexels.com/photos/33952473/pexels-photo-33952473.jpeg",
     "content": "Proin tincidunt suscipit nisi, sed imperdiet mi ornare eget. Sed nec purus sed nunc viverra dapibus in in risus. Nulla quis iaculis elit. In ullamcorper scelerisque turpis. Nullam at ultrices lectus. Integer rhoncus magna et tincidunt auctor. Cras laoreet nibh at scelerisque aliquet. Maecenas ut felis mollis, malesuada enim ac, semper lorem."
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "author": "Carla Mendes",
-    "author-slug": "carla-mendes",
+    "authorSlug": "carla-mendes",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pellentesque.",
     "urlToImage": "https://images.pexels.com/photos/33952475/pexels-photo-33952475.jpeg",
     "content": "Proin tempus lorem commodo iaculis porta. Integer pretium mollis venenatis. Fusce convallis leo ut mi tempor, in pretium nulla iaculis. Sed vestibulum interdum est ac tristique. Sed rutrum varius viverra. Etiam scelerisque augue eu neque dictum, vitae bibendum nunc viverra. Cras eu odio fermentum, feugiat ligula vitae, accumsan velit. Ut at malesuada diam, semper ultricies ligula. Nullam fermentum ligula velit. Suspendisse tincidunt in lacus eget tincidunt. Nulla viverra vestibulum urna. In pharetra lacinia diam a pharetra. Mauris id leo nec nunc ornare porttitor in vel leo. Integer ultricies congue sem in egestas."
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "author": "Diego Alves",
-    "author-slug": "diego-alves",
+    "authorSlug": "diego-alves",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a.",
     "urlToImage": "https://images.pexels.com/photos/36204295/pexels-photo-36204295.jpeg",
     "content": "Suspendisse sollicitudin turpis scelerisque ultricies eleifend. Ut ultricies aliquet mauris, at hendrerit arcu blandit vitae. In tincidunt sit amet mi et consectetur. Sed at velit a nisi efficitur tincidunt ac vel mauris. Praesent egestas sem eros, non rhoncus enim auctor ac. Duis mattis, ligula ut iaculis auctor, arcu ante congue nunc, ut condimentum purus purus finibus sem. Aliquam porttitor, nisi non pharetra faucibus, tortor elit aliquet turpis, id posuere augue magna a metus. Curabitur orci metus, mollis sed enim sed, malesuada lacinia nunc. Vivamus porttitor varius suscipit. Etiam ac imperdiet ipsum, id semper dui. Aliquam urna est, eleifend nec dictum et, pulvinar quis ipsum. Suspendisse eu sapien non neque tristique finibus. Cras euismod hendrerit sollicitudin."
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "author": "Ana Silva",
-    "author-slug": "ana-silva",
+    "authorSlug": "ana-silva",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus.",
     "urlToImage": "https://images.pexels.com/photos/36204297/pexels-photo-36204297.jpeg",
     "content": "Pellentesque ut vestibulum enim. Nam eleifend pretium risus sit amet faucibus. Aliquam vitae dolor non turpis porta molestie vel quis urna. Pellentesque malesuada aliquet justo eget pharetra. Cras dapibus velit eu dignissim luctus. Vestibulum eu condimentum orci. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare dolor sit amet lobortis fermentum."
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "author": "Bruno Costa",
-    "author-slug": "bruno-costa",
+    "authorSlug": "bruno-costa",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus.",
     "urlToImage": "https://images.pexels.com/photos/14771945/pexels-photo-14771945.jpeg",
     "content": "Sed ultricies nibh risus, vitae porttitor sapien blandit eu. Duis sed metus et odio ornare vulputate. Fusce vel tortor nec mi vehicula rhoncus id at velit. Pellentesque bibendum massa eget ex sollicitudin, vitae suscipit felis gravida. Mauris nec efficitur neque. Ut in quam enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sagittis eros tristique ipsum scelerisque, ut faucibus lorem ultricies. Praesent et fermentum leo, luctus blandit nulla. Aenean at turpis dapibus, consectetur orci vel, pulvinar lacus. Aenean ac nisl sed quam tincidunt rutrum. Curabitur vitae elementum risus, non elementum ante. In imperdiet sollicitudin ex, nec pellentesque diam condimentum eget. Integer non justo ultricies, vehicula odio quis, sodales neque. Aliquam quis ligula ut lacus efficitur porta non sed enim. Praesent feugiat orci id lacus laoreet mattis."
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "author": "Carla Mendes",
-    "author-slug": "carla-mendes",
+    "authorSlug": "carla-mendes",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget.",
     "urlToImage": "https://images.pexels.com/photos/14771936/pexels-photo-14771936.jpeg",
     "content": "Curabitur varius lectus nec ex vulputate ultrices. Nunc elementum lacinia augue, sit amet viverra est ultricies sed. Cras sit amet purus ac augue lobortis interdum at non massa. Morbi fringilla dignissim elit sit amet fringilla. Nulla gravida, eros in hendrerit facilisis, erat lorem vestibulum lorem, quis dapibus tortor sem vel felis. Sed ut laoreet nunc, a cursus justo. Fusce nec arcu sed elit vulputate vulputate eget eu eros. Etiam malesuada volutpat risus eget consequat. Morbi non neque ligula. Fusce nec sagittis lacus, ac tempus nibh. Morbi suscipit luctus dapibus."
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "author": "Diego Alves",
-    "author-slug": "diego-alves",
+    "authorSlug": "diego-alves",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nunc.",
     "urlToImage": "https://images.pexels.com/photos/14776921/pexels-photo-14776921.jpeg",
     "content": "Ut sapien tortor, consectetur non pretium hendrerit, euismod nec felis. Nulla facilisi. Aliquam erat volutpat. Mauris eleifend urna neque. Vestibulum facilisis lobortis nisl. Suspendisse convallis lorem a elit gravida tempor. Sed lacinia non dolor a placerat."
