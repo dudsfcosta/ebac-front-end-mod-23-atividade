@@ -17,7 +17,7 @@ const DetalheArtigo = async ({params} : Props) => {
     const { id } = await params;
     const details = await getArtigo(Number(id));
     // @ts-expect-error IDE finds error, but code works properly
-    const {title, urlToImage, content} = details;
+    const {title, urlToImage, content, author, authorSlug, publishedAt} = details;
 
     return (
         <>
@@ -28,10 +28,13 @@ const DetalheArtigo = async ({params} : Props) => {
                         <figure>
                             <img className={styles.detalhes__image}
                                  src={`${urlToImage}`}
-                                 alt={`imagem do filme "${title}"`} />
+                                 alt={`"${title}"`} />
                         </figure>
                         <article className={styles.detalhes__info}>
                             <h2>{title}</h2>
+                            <div className={styles.card__author}>
+                                <Link href={`/pages/autores/${authorSlug}`}>{author}</Link> • {publishedAt}
+                            </div>
                             <p>{content}</p>
                         </article>
                     </section>

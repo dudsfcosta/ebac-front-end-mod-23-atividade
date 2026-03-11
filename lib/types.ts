@@ -5,6 +5,7 @@ export interface Artigo {
     authorSlug: string
     title: string
     urlToImage: string
+    publishedAt: string
     content: string
 }
 

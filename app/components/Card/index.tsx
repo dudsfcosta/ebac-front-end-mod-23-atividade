@@ -8,7 +8,7 @@ type Props = {
 }
 const Card = ({artigo} : Props) => {
 
-    const {id, author, authorSlug, title, urlToImage, content} = artigo;
+    const {id, author, authorSlug, title, urlToImage, content, publishedAt} = artigo;
     const resume = content?.length >= 128?`${content.substring(0, 128)}...`:content;
     return (
         <div key={id} className={styles.card}>
@@ -21,9 +21,11 @@ const Card = ({artigo} : Props) => {
                 <Link href={`/pages/article/${id}`}>
                     <h3 className={styles.card__title}>{title}</h3>
                 </Link>
-                <Link href={`/pages/autores/${authorSlug}`}>
-                    <h4 className={styles.card__author}>{author}</h4>
-                </Link>
+                <small>
+                    <div className={styles.card__author}>
+                        <Link href={`/pages/autores/${authorSlug}`}>{author}</Link> • {publishedAt}
+                    </div>
+                </small>
                 <p className={styles.card__description}>{resume}</p>
                 <p></p>
             </div>
