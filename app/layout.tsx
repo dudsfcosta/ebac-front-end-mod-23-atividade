@@ -4,8 +4,8 @@ import Header from "./components/Header"
 import Footer from "@/app/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Cinelista",
-  description: "No Cinelista, voê encontra os títulos mais populares",
+  title: "Blog.",
+  description: "Você melhor informado.",
 };
 
 export default function RootLayout({
