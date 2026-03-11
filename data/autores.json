@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "ana-silva",
+    "nome": "Ana Silva",
+    "bio": "Ana Silva é jornalista especializada em ciência e tecnologia. Ela escreve sobre inovação, espaço e descobertas científicas."
+  },
+  {
+    "slug": "bruno-costa",
+    "nome": "Bruno Costa",
+    "bio": "Bruno Costa é analista de mercado e escreve sobre economia global, negócios e tendências financeiras."
+  },
+  {
+    "slug": "carla-mendes",
+    "nome": "Carla Mendes",
+    "bio": "Carla Mendes cobre cultura digital, redes sociais e comportamento online."
+  },
+  {
+    "slug": "diego-alves",
+    "nome": "Diego Alves",
+    "bio": "Diego Alves é redator esportivo com foco em futebol internacional e ligas americanas."
+  }
+]
