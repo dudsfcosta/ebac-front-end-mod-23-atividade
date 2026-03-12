@@ -5,7 +5,7 @@ import styles from "./Body.module.css"
 type Props = {
     artigos: Artigo[]
 }
-const Grid = ({artigos} : Props) => {
+const Body = ({artigos} : Props) => {
 
     return (
 
@@ -15,4 +15,4 @@ const Grid = ({artigos} : Props) => {
     )
 }
 
-export default Grid;
+export default Body;

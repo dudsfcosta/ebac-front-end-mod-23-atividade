@@ -10,6 +10,17 @@ type Props = {
     }>
 }
 
+export async function generateMetadata ({params}: Props){
+
+    const author = await getAuthor((await params).slug)
+
+    return {
+
+        title: `Blog. - ${author?.nome}`,
+        description: `About ${author?.nome}`,
+    }
+}
+
 const DetalheArtigo = async ({params} : Props) => {
     const { slug } = await params;
     const details = await getAuthor(slug);
