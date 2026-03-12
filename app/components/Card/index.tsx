@@ -2,7 +2,6 @@ import {Artigo} from "@/lib/types";
 import styles from "./Card.module.css";
 import Link from "next/link";
 import {generateSlug} from "@/lib/functions";
-import slugify from "slugify";
 
 type Props = {
 

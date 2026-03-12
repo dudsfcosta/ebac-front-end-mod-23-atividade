@@ -24,7 +24,7 @@ const DetalheArtigo = async ({params} : Props) => {
                     <section>
                         <figure>
                             <img className={styles.detalhes__image}
-                                 src={`${slug}.png`}
+                                 src={`https://raw.githubusercontent.com/dudsfcosta/ebac-front-end-mod-23-atividade/refs/heads/master/app/images/${slug}.png`}
                                  alt={`"${nome}"`} />
                         </figure>
                         <article className={styles.detalhes__info}>
