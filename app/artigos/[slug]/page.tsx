@@ -2,17 +2,15 @@ import Link from "next/link";
 import styles from "./DetalheArtigo.module.css"
 import {getArtigo, getArtigos} from "@/lib/functions";
 import {generateSlug} from "@/lib/functions";
+import {Artigo} from "@/lib/types";
 
 export const dynamic = "force-static"
 
 type Props = {
     params : Promise<{
 
-        slug: string;
-        author: string
+        slug: string
         title: string
-        urlToImage: string
-        publishedAt: string
         content: string
     }>
 }
@@ -31,7 +29,7 @@ export async function generateMetadata ({params}: Props){
 export async function generateStaticParams() {
     const artigos = await getArtigos()
 
-    return artigos.map((artigo) => ({
+    return artigos.map((artigo : Artigo) => ({
         slug: artigo.slug
     }))
 }
@@ -54,7 +52,7 @@ const DetalheArtigo = async ({params} : Props) => {
                         <article className={styles.detalhes__info}>
                             <h2>{artigo?.title}</h2>
                             <div className={styles.card__author}>
-                                <Link href={`/pages/autores/${generateSlug(artigo?.author)}`}>{artigo?.author}</Link> • {artigo?.publishedAt}
+                                <Link href={`/autores/${generateSlug(artigo?.author)}`}>{artigo?.author}</Link> • {artigo?.publishedAt}
                             </div>
                             <p>{artigo?.content}</p>
                         </article>

@@ -17,9 +17,12 @@ export const generateSlug = (title: string | undefined) => {
     });
 };
 
-export const getArtigo = async (slug: string): Promise<Artigo | undefined> => {
+export async function getArtigo(slug: string) {
+    const artigos = await getArtigos()
 
-    return artigos.find(artigo => artigo.slug === slug);
+    return artigos.find(
+        (artigo) => generateSlug(artigo.title) === slug
+    )
 }
 
 export async function getAutores(): Promise<Autor[]> {
