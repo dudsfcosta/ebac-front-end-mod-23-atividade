@@ -1,8 +1,7 @@
 export interface Artigo {
 
-    id: number
+    slug: string
     author: string
-    authorSlug: string
     title: string
     urlToImage: string
     publishedAt: string

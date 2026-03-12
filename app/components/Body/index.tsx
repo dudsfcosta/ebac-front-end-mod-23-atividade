@@ -10,7 +10,7 @@ const Grid = ({artigos} : Props) => {
     return (
 
         <section className={styles.body}>
-            {artigos.map(artigo => <Card key={artigo.id} artigo={artigo} />)}
+            {artigos.map(artigo => <Card key={artigo.title} artigo={artigo} />)}
         </section>
     )
 }
