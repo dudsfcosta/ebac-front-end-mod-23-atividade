@@ -18,7 +18,7 @@
     "content": "Proin tincidunt suscipit nisi, sed imperdiet mi ornare eget. Sed nec purus sed nunc viverra dapibus in in risus. Nulla quis iaculis elit. In ullamcorper scelerisque turpis. Nullam at ultrices lectus. Integer rhoncus magna et tincidunt auctor. Cras laoreet nibh at scelerisque aliquet. Maecenas ut felis mollis, malesuada enim ac, semper lorem."
   },
   {
-    "slug": "lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-pellentesque",
+    "slug": "lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-in-pellentesque",
     "author": "Carla Mendes",
     "authorSlug": "carla-mendes",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pellentesque.",
@@ -27,7 +27,7 @@
     "content": "Proin tempus lorem commodo iaculis porta. Integer pretium mollis venenatis. Fusce convallis leo ut mi tempor, in pretium nulla iaculis. Sed vestibulum interdum est ac tristique. Sed rutrum varius viverra. Etiam scelerisque augue eu neque dictum, vitae bibendum nunc viverra. Cras eu odio fermentum, feugiat ligula vitae, accumsan velit. Ut at malesuada diam, semper ultricies ligula. Nullam fermentum ligula velit. Suspendisse tincidunt in lacus eget tincidunt. Nulla viverra vestibulum urna. In pharetra lacinia diam a pharetra. Mauris id leo nec nunc ornare porttitor in vel leo. Integer ultricies congue sem in egestas."
   },
   {
-    "slug": "lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-maecenas",
+    "slug": "lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-maecenas-a",
     "author": "Diego Alves",
     "authorSlug": "diego-alves",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a.",
